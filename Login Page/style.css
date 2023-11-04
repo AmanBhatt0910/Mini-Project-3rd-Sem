@@ -91,3 +91,8 @@ button:focus {
 .signup-link a:hover {
     color: #2980b9;
 }
+
+
+input:focus {
+    outline: 2px solid #1c75b0;
+}
