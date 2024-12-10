@@ -217,17 +217,20 @@
 .adminDash_left {
   background: #282828;
   width: 155px;
-
-  /*sticky sidebar*/
   position: fixed;
   top: 75px;
-  height: 100%;
+  height: calc(100vh - 75px);
+  box-sizing: border-box;
 }
 
 .nav-link {
+  display: block;
+  padding: 10px 15px; /* Adjust padding for spacing */
   border-bottom: 1px solid #4b4b4b;
   color: white;
+  text-decoration: none; /* Remove default underline */
 }
+
 .nav-link:hover {
   background: black;
   color: white;
